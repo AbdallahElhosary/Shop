@@ -5,7 +5,6 @@ import { ShopContext } from '../../context/ShopContext';
 
 export const CartItem = (props) => {
     const { cartItems, AddItemToCart, RemoveItemFromCart,UpdateItemAmount  } = useContext(ShopContext);
-    console.log(cartItems)
 
     return (
         <div className='cartItem mt-3 col-11 col-lg-7 col-md-9 text-center' key={props.data.id}>
